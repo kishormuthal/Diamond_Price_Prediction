@@ -81,9 +81,9 @@ python application.py
 
 5. Open your web browser and go to
 
- ``http://127.0.0.1:5004/`` - to access the home page
+ ``http://127.0.0.1:5000/`` - to access the home page
    
-``http://127.0.0.1:5004/predict`` - to perform prediction of diamond price on the web application.
+``http://127.0.0.1:5000/predict`` - to perform prediction of diamond price on the web application.
 
 ## Usage
 
