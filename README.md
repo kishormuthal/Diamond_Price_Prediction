@@ -14,7 +14,6 @@ List of models the project uses to train on the dataset -
 - Lasso
 - Ridge
 - Elastic Net
-- Random Forest
 - Decision Tree
 
 ## Project Structure
