@@ -59,6 +59,7 @@ class ModelTrainer:
             # Select the best model based on RMSE
             best_model_name = min(cv_results_rms, key=cv_results_rms.get)
             best_model = models[best_model_name]
+            print(f"Best Model based on CV: {best_model_name} with RMSE = {cv_results_rms[best_model_name]:.4f}")
             logging.info(f"Best Model based on CV: {best_model_name} with RMSE = {cv_results_rms[best_model_name]:.4f}")
 
             # Evaluate the best model on test data
