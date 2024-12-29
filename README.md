@@ -15,6 +15,8 @@ List of models the project uses to train on the dataset -
 - Ridge
 - Elastic Net
 - Decision Tree
+- Random Forest Regressor
+- K Neighbors Regressor
 
 ## Project Structure
 
@@ -95,15 +97,3 @@ Additionally, you can explore the Jupyter notebooks named `EDA` and `Model Train
 <img width="1440" alt="Screenshot 2023-10-16 at 8 32 10 PM (2)" src="https://github.com/rachitdani/Diamond-Price-Prediction-Project/assets/79761144/4b97e05a-4162-4ab4-912a-85647ee31496">
 
 ![Screenshot 2023-10-16 at 8 34 50 PM](https://github.com/rachitdani/Diamond-Price-Prediction-Project/assets/79761144/46e56541-1190-4f60-84f2-3a239de5a286)
-
-
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to this project, please follow these following steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix: `git checkout -b feature-name`.
-3. Make your changes and commit them: `git commit -m 'Description of your changes'`.
-4. Push your changes to your fork: `git push origin feature-name`.
-5. Create a pull request on the original repository.
